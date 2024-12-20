@@ -63,5 +63,3 @@ RUN apt-get update --fix-missing \
         zlib1g-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists
-RUN useradd -m build
-USER build
